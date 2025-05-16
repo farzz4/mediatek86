@@ -13,4 +13,8 @@
     <SourceRoot Include="C:\Users\Mac\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\Mac\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
+    <PkgEnterpriseLibrary_Data Condition=" '$(PkgEnterpriseLibrary_Data)' == '' ">C:\Users\Mac\.nuget\packages\enterpriselibrary.data\6.0.1304</PkgEnterpriseLibrary_Data>
+  </PropertyGroup>
 </Project>
