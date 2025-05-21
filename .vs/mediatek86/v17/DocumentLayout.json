@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\mediatek86.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\mediatek86.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,24 +11,76 @@
       "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\controllers\\absencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\controllers\\absencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_absence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\controllers\\personnelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\controllers\\personnelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\controllers\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\controllers\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\bd\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\bd\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\modele\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\modele\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\modele\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\modele\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\modele\\motif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\modele\\motif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\modele\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\modele\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\mediatek86.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\mediatek86.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\mediatek86.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\mediatek86.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\gestion_absence.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +95,8 @@
       "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\form_connexion.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\forms\\form_connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\bd\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|solutionrelative:mediatek86\\bd\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84BA6D9A-7C41-4F61-9D23-FFF0EF70F781}|mediatek86\\mediatek86.csproj|c:\\users\\mac\\desktop\\cned cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,61 +110,227 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "gestion_personnel.cs",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_personnel.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs",
-              "RelativeToolTip": "mediatek86\\forms\\gestion_personnel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgBAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AbsenceController.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\controllers\\AbsenceController.cs",
+              "RelativeDocumentMoniker": "mediatek86\\controllers\\AbsenceController.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\controllers\\AbsenceController.cs",
+              "RelativeToolTip": "mediatek86\\controllers\\AbsenceController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:17:23.828Z",
+              "WhenOpened": "2025-05-21T11:27:17.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "menu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.Designer.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\menu.Designer.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.Designer.cs",
-              "RelativeToolTip": "mediatek86\\forms\\menu.Designer.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PersonnelController.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\controllers\\PersonnelController.cs",
+              "RelativeDocumentMoniker": "mediatek86\\controllers\\PersonnelController.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\controllers\\PersonnelController.cs",
+              "RelativeToolTip": "mediatek86\\controllers\\PersonnelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:24:05.053Z",
+              "WhenOpened": "2025-05-21T11:25:59.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "menu.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\menu.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs [Conception]",
-              "RelativeToolTip": "mediatek86\\forms\\menu.cs [Conception]",
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Service.cs",
+              "RelativeDocumentMoniker": "mediatek86\\modele\\Service.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Service.cs",
+              "RelativeToolTip": "mediatek86\\modele\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:24:33.352Z"
+              "WhenOpened": "2025-05-21T11:22:29.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Personnel.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Personnel.cs",
+              "RelativeDocumentMoniker": "mediatek86\\modele\\Personnel.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Personnel.cs",
+              "RelativeToolTip": "mediatek86\\modele\\Personnel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:22:29.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gestion_absence.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_absence.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs [Conception]",
+              "RelativeToolTip": "mediatek86\\forms\\gestion_absence.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:58:33.995Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "gestion_absence.cs",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs",
               "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_absence.cs",
               "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs",
               "RelativeToolTip": "mediatek86\\forms\\gestion_absence.cs",
-              "ViewState": "AgIAADUBAAAAAAAAAAAswDwBAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T13:17:44.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "Motif.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Motif.cs",
+              "RelativeDocumentMoniker": "mediatek86\\modele\\Motif.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Motif.cs",
+              "RelativeToolTip": "mediatek86\\modele\\Motif.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:22:27.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Absence.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Absence.cs",
+              "RelativeDocumentMoniker": "mediatek86\\modele\\Absence.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\modele\\Absence.cs",
+              "RelativeToolTip": "mediatek86\\modele\\Absence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:22:25.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "gestion_personnel.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_personnel.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs",
+              "RelativeToolTip": "mediatek86\\forms\\gestion_personnel.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAAwHsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:17:23.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BddManager.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\Bd\\BddManager.cs",
+              "RelativeDocumentMoniker": "mediatek86\\Bd\\BddManager.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\Bd\\BddManager.cs",
+              "RelativeToolTip": "mediatek86\\Bd\\BddManager.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:50:38.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Controle.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\controllers\\Controle.cs",
+              "RelativeDocumentMoniker": "mediatek86\\controllers\\Controle.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\controllers\\Controle.cs",
+              "RelativeToolTip": "mediatek86\\controllers\\Controle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T19:37:59.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "gestion_personnel.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_personnel.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs [Conception]",
+              "RelativeToolTip": "mediatek86\\forms\\gestion_personnel.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:04:14.382Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "menu.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\menu.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs [Conception]",
+              "RelativeToolTip": "mediatek86\\forms\\menu.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:24:33.352Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "menu.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\menu.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs",
+              "RelativeToolTip": "mediatek86\\forms\\menu.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:19:42.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form_Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\Form_Connexion.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs",
+              "RelativeToolTip": "mediatek86\\forms\\Form_Connexion.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:06:01.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form_Connexion.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\Form_Connexion.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs [Conception]",
+              "RelativeToolTip": "mediatek86\\forms\\Form_Connexion.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T22:04:42.902Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "mediatek86",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\mediatek86.csproj",
+              "RelativeDocumentMoniker": "mediatek86\\mediatek86.csproj",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\mediatek86.csproj",
+              "RelativeToolTip": "mediatek86\\mediatek86.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T11:12:45.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "mediatek86.csproj",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\mediatek86.csproj",
               "RelativeDocumentMoniker": "mediatek86\\mediatek86.csproj",
@@ -140,22 +338,25 @@
               "RelativeToolTip": "mediatek86\\mediatek86.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-14T21:12:52.503Z"
+              "WhenOpened": "2025-05-14T21:12:52.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "gestion_absence.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_absence.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.cs [Conception]",
-              "RelativeToolTip": "mediatek86\\forms\\gestion_absence.cs [Conception]",
+              "DocumentIndex": 18,
+              "Title": "menu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.Designer.cs",
+              "RelativeDocumentMoniker": "mediatek86\\forms\\menu.Designer.cs",
+              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.Designer.cs",
+              "RelativeToolTip": "mediatek86\\forms\\menu.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T16:58:33.995Z"
+              "WhenOpened": "2025-05-15T13:24:05.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "gestion_absence.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_absence.Designer.cs",
               "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_absence.Designer.cs",
@@ -163,46 +364,25 @@
               "RelativeToolTip": "mediatek86\\forms\\gestion_absence.Designer.cs",
               "ViewState": "AgIAAO8AAAAAAAAAAAAiwBABAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T20:58:09.5Z"
+              "WhenOpened": "2025-05-15T20:58:09.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "gestion_personnel.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_personnel.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.cs [Conception]",
-              "RelativeToolTip": "mediatek86\\forms\\gestion_personnel.cs [Conception]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T16:04:14.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "menu.cs",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\menu.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.cs",
-              "RelativeToolTip": "mediatek86\\forms\\menu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:19:42.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "gestion_personnel.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.Designer.cs",
               "RelativeDocumentMoniker": "mediatek86\\forms\\gestion_personnel.Designer.cs",
               "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\gestion_personnel.Designer.cs",
               "RelativeToolTip": "mediatek86\\forms\\gestion_personnel.Designer.cs",
-              "ViewState": "AgIAAAABAAAAAAAAAAAnwBIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:36:46.361Z"
+              "WhenOpened": "2025-05-15T15:36:46.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\Program.cs",
               "RelativeDocumentMoniker": "mediatek86\\Program.cs",
@@ -214,73 +394,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "menu.resx",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.resx",
               "RelativeDocumentMoniker": "mediatek86\\forms\\menu.resx",
               "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\menu.resx",
               "RelativeToolTip": "mediatek86\\forms\\menu.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-15T13:24:12.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Form_Connexion.cs",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\Form_Connexion.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs",
-              "RelativeToolTip": "mediatek86\\forms\\Form_Connexion.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwD8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:06:01.406Z",
+              "WhenOpened": "2025-05-15T13:24:12.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "form_connexion.resx",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.resx",
               "RelativeDocumentMoniker": "mediatek86\\forms\\form_connexion.resx",
               "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.resx",
               "RelativeToolTip": "mediatek86\\forms\\form_connexion.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-14T22:04:30.417Z"
+              "WhenOpened": "2025-05-14T22:04:30.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "form_connexion.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.Designer.cs",
               "RelativeDocumentMoniker": "mediatek86\\forms\\form_connexion.Designer.cs",
               "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\form_connexion.Designer.cs",
               "RelativeToolTip": "mediatek86\\forms\\form_connexion.Designer.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:05:27.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BddManager.cs",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\Bd\\BddManager.cs",
-              "RelativeDocumentMoniker": "mediatek86\\Bd\\BddManager.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\Bd\\BddManager.cs",
-              "RelativeToolTip": "mediatek86\\Bd\\BddManager.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T20:50:38.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form_Connexion.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs",
-              "RelativeDocumentMoniker": "mediatek86\\forms\\Form_Connexion.cs",
-              "ToolTip": "C:\\Users\\Mac\\Desktop\\cned Cshrp\\projet\\mediatek86\\mediatek86\\forms\\Form_Connexion.cs [Design]",
-              "RelativeToolTip": "mediatek86\\forms\\Form_Connexion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T22:04:42.902Z"
+              "WhenOpened": "2025-05-14T21:05:27.99Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -88,6 +88,7 @@
             checkBox1.TabIndex = 4;
             checkBox1.Text = "Afficher le mot de passe ";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // txtMdp
             // 
@@ -95,6 +96,7 @@
             txtMdp.Name = "txtMdp";
             txtMdp.Size = new Size(206, 30);
             txtMdp.TabIndex = 3;
+            txtMdp.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -130,7 +132,7 @@
             Controls.Add(groupBox1);
             Controls.Add(label1);
             Name = "form_connexion";
-            Text = "Form1";
+            Text = "connexion";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

@@ -215,6 +215,7 @@
             btnretour.TabIndex = 10;
             btnretour.Text = "Retour";
             btnretour.UseVisualStyleBackColor = false;
+            btnretour.Click += btnretour_Click;
             // 
             // btnsupprimerabsen
             // 

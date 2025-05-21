@@ -11,6 +11,9 @@ namespace mediatek86.forms
         private readonly BddManager bddManager = new BddManager();
         private DataTable dtPersonnel = new DataTable();
 
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe gestion_personnel.
+        /// </summary>
         public gestion_personnel()
         {
             InitializeComponent();
@@ -18,6 +21,11 @@ namespace mediatek86.forms
             dataGridpersonel.SelectionChanged += dataGridpersonel_SelectionChanged;
         }
 
+        /// <summary>
+        /// Gère l'événement de chargement du formulaire pour initialiser les données.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void GestionPersonnel_Load(object sender, EventArgs e)
         {
             ChargerServices();
@@ -25,6 +33,9 @@ namespace mediatek86.forms
             ChargerPersonnel();
         }
 
+        /// <summary>
+        /// Configure le DataGridView pour afficher les informations du personnel.
+        /// </summary>
         private void ConfigurerDataGrid()
         {
             dataGridpersonel.AutoGenerateColumns = false;
@@ -74,7 +85,7 @@ namespace mediatek86.forms
             {
                 Name = "service",
                 DataPropertyName = "service",
-                HeaderText = "Service"
+                HeaderText = "service"
             });
 
             dataGridpersonel.Columns.Add(new DataGridViewTextBoxColumn
@@ -85,6 +96,10 @@ namespace mediatek86.forms
                 Visible = false
             });
         }
+
+        /// <summary>
+        /// Charge la liste des services depuis la base de données.
+        /// </summary>
         private void ChargerServices()
         {
             try
@@ -107,6 +122,9 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Charge la liste du personnel depuis la base de données.
+        /// </summary>
         private void ChargerPersonnel()
         {
             try
@@ -114,7 +132,7 @@ namespace mediatek86.forms
                 using (var conn = bddManager.GetConnection())
                 {
                     conn.Open();
-                    var query = @"SELECT 
+                    var query = @"SELECT
                                 p.idpersonnel,
                                 p.nom,
                                 p.prenom,
@@ -138,6 +156,11 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton d'ajout de personnel.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnajouterpersonel_Click(object sender, EventArgs e)
         {
             if (!ValiderChamps()) return;
@@ -164,6 +187,11 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de modification de personnel.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnmodifierpersonel_Click(object sender, EventArgs e)
         {
             if (dataGridpersonel.SelectedRows.Count == 0)
@@ -196,6 +224,11 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de suppression de personnel.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnsupprimerpersonel_Click(object sender, EventArgs e)
         {
             if (dataGridpersonel.SelectedRows.Count == 0) return;
@@ -225,6 +258,11 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de changement de sélection dans le DataGridView du personnel.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void dataGridpersonel_SelectionChanged(object sender, EventArgs e)
         {
             if (dataGridpersonel.SelectedRows.Count > 0)
@@ -238,11 +276,19 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Obtient l'ID du personnel sélectionné.
+        /// </summary>
+        /// <returns>L'ID du personnel sélectionné.</returns>
         private int ObtenirIdSelectionne()
         {
             return Convert.ToInt32(dataGridpersonel.SelectedRows[0].Cells["idpersonnel"].Value);
         }
 
+        /// <summary>
+        /// Valide les champs du formulaire.
+        /// </summary>
+        /// <returns>True si les champs sont valides, sinon False.</returns>
         private bool ValiderChamps()
         {
             if (string.IsNullOrWhiteSpace(txtnom.Text)) return AfficherErreur("Nom");
@@ -257,6 +303,10 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Remplit les paramètres d'une commande SQL avec les valeurs du formulaire.
+        /// </summary>
+        /// <param name="cmd">La commande SQL à remplir.</param>
         private void RemplirParametres(MySqlCommand cmd)
         {
             cmd.Parameters.AddWithValue("@nom", txtnom.Text.Trim());
@@ -266,6 +316,9 @@ namespace mediatek86.forms
             cmd.Parameters.AddWithValue("@idservice", boxservice.SelectedValue);
         }
 
+        /// <summary>
+        /// Réinitialise le formulaire.
+        /// </summary>
         private void ResetForm()
         {
             txtnom.Clear();
@@ -275,16 +328,31 @@ namespace mediatek86.forms
             boxservice.SelectedIndex = -1;
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de rechargement du personnel.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btncharger_Click(object sender, EventArgs e)
         {
             ChargerPersonnel();
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton d'initialisation du formulaire.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void but_rnitialiser_Click(object sender, EventArgs e)
         {
             ResetForm();
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de gestion des absences.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void gereabsence_Click(object sender, EventArgs e)
         {
             if (dataGridpersonel.SelectedRows.Count == 0)
@@ -294,9 +362,18 @@ namespace mediatek86.forms
             }
 
             int idPersonnel = ObtenirIdSelectionne();
-            gestion_absence gbsform = new gestion_absence(); // Pass the selected personnel ID
+            gestion_absence gbsform = new gestion_absence(); // Passe l'ID du personnel sélectionné
             gbsform.Show();
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton d'initialisation du formulaire.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
+        private void but_rnitialiser_Click_1(object sender, EventArgs e)
+        {
+            ResetForm();
+        }
     }
 }

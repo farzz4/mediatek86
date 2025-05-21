@@ -10,6 +10,9 @@ namespace mediatek86.forms
     {
         private readonly BddManager bddManager = new BddManager();
 
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe gestion_absence.
+        /// </summary>
         public gestion_absence()
         {
             InitializeComponent();
@@ -18,6 +21,9 @@ namespace mediatek86.forms
             dataGridViewAbsences.SelectionChanged += dataGridViewAbsences_SelectionChanged;
         }
 
+        /// <summary>
+        /// Configure l'interface utilisateur, notamment les formats de date et les colonnes du DataGridView.
+        /// </summary>
         private void ConfigureUI()
         {
             dateTimePickerdebut.Format = DateTimePickerFormat.Custom;
@@ -37,6 +43,11 @@ namespace mediatek86.forms
             dataGridViewAbsences.Columns.Add(new DataGridViewTextBoxColumn { Name = "idmotif", DataPropertyName = "idmotif", HeaderText = "ID Motif", Visible = false });
         }
 
+        /// <summary>
+        /// Gère l'événement de chargement du formulaire pour initialiser les données.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void GestionAbsence_Load(object sender, EventArgs e)
         {
             try
@@ -52,6 +63,9 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Charge la liste des employés depuis la base de données.
+        /// </summary>
         private void ChargerEmployes()
         {
             try
@@ -74,6 +88,9 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Charge la liste des motifs depuis la base de données.
+        /// </summary>
         private void ChargerMotifs()
         {
             try
@@ -96,6 +113,9 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Charge la liste des absences depuis la base de données.
+        /// </summary>
         private void ChargerAbsences()
         {
             try
@@ -121,16 +141,30 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton d'ajout d'absence.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnajoutabsen_Click(object sender, EventArgs e)
         {
 
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de suppression d'absence.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnsupprimerabsen_Click(object sender, EventArgs e)
         {
-            
+
         }
 
+        /// <summary>
+        /// Valide les champs de date et de motif.
+        /// </summary>
+        /// <returns>True si les champs sont valides, sinon False.</returns>
         private bool ValiderChamps()
         {
             if (dateTimePickerdebut.Value >= dateTimePickerfin.Value)
@@ -148,6 +182,10 @@ namespace mediatek86.forms
             return true;
         }
 
+        /// <summary>
+        /// Valide la sélection d'un employé.
+        /// </summary>
+        /// <returns>True si un employé est sélectionné, sinon False.</returns>
         private bool ValiderID()
         {
             if (ObtenirIdSelectionne() == -1)
@@ -158,6 +196,11 @@ namespace mediatek86.forms
             return true;
         }
 
+        /// <summary>
+        /// Gère l'événement de changement de sélection dans le DataGridView des absences.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void dataGridViewAbsences_SelectionChanged(object sender, EventArgs e)
         {
             if (dataGridViewAbsences.SelectedRows.Count > 0)
@@ -169,6 +212,10 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Obtient l'ID de l'employé sélectionné.
+        /// </summary>
+        /// <returns>L'ID de l'employé sélectionné ou -1 si aucun employé n'est sélectionné.</returns>
         private int ObtenirIdSelectionne()
         {
             if (comboEmployees.SelectedIndex >= 0)
@@ -178,11 +225,21 @@ namespace mediatek86.forms
             return -1;
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de rafraîchissement des absences.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void button1_Click(object sender, EventArgs e)
         {
             ChargerAbsences();
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton d'ajout d'absence.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnajoutabsen_Click_1(object sender, EventArgs e)
         {
 
@@ -252,9 +309,14 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de modification d'absence.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnmodifierabsen_Click(object sender, EventArgs e)
         {
-        
+
             if (dataGridViewAbsences.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Sélectionnez une absence à modifier");
@@ -314,8 +376,11 @@ namespace mediatek86.forms
             }
         }
 
-        
-
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de suppression d'absence.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnsupprimerabsen_Click_1(object sender, EventArgs e)
         {
             if (dataGridViewAbsences.SelectedRows.Count == 0) return;
@@ -345,6 +410,16 @@ namespace mediatek86.forms
                     MessageBox.Show($"Erreur suppression : {ex.Message}");
                 }
             }
+        }
+
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de retour.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
+        private void btnretour_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

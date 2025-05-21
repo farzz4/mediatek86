@@ -10,11 +10,19 @@ namespace mediatek86.forms
     {
         private string connectionString = "Server=localhost;Database=mediatek86;Uid=root;Pwd=;CharSet=utf8mb4;";
 
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe form_connexion.
+        /// </summary>
         public form_connexion()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Calcule le hachage SHA256 de la chaîne d'entrée.
+        /// </summary>
+        /// <param name="rawData">La chaîne d'entrée à hacher.</param>
+        /// <returns>Le hachage SHA256 sous forme de chaîne hexadécimale.</returns>
         private string ComputeSha256Hash(string rawData)
         {
             using (SHA256 sha256Hash = SHA256.Create())
@@ -26,6 +34,11 @@ namespace mediatek86.forms
             }
         }
 
+        /// <summary>
+        /// Gère l'événement de clic sur le bouton de connexion. Valide les informations d'identification de l'utilisateur par rapport à la base de données.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
         private void btnConnexion_Click(object sender, EventArgs e)
         {
             string login = txtLogin.Text.Trim();
@@ -79,6 +92,16 @@ namespace mediatek86.forms
             {
                 MessageBox.Show($"Erreur critique : {ex.Message}\n{ex.StackTrace}");
             }
+        }
+
+        /// <summary>
+        /// Gère l'événement de changement d'état de la case à cocher pour basculer la visibilité du mot de passe.
+        /// </summary>
+        /// <param name="sender">La source de l'événement.</param>
+        /// <param name="e">Les données de l'événement.</param>
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtMdp.UseSystemPasswordChar = !checkBox1.Checked;
         }
     }
 }

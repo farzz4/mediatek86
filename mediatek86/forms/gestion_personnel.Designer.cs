@@ -48,15 +48,15 @@
             gereabsence = new Button();
             label9 = new Label();
             dataGridpersonel = new DataGridView();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            groupBox2 = new GroupBox();
-            btncharger = new Button();
             idpersonnel = new DataGridViewTextBoxColumn();
             nom = new DataGridViewTextBoxColumn();
             prenom = new DataGridViewTextBoxColumn();
             tel = new DataGridViewTextBoxColumn();
             email = new DataGridViewTextBoxColumn();
             service = new DataGridViewTextBoxColumn();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            groupBox2 = new GroupBox();
+            btncharger = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridpersonel).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -192,6 +192,7 @@
             but_rnitialiser.TabIndex = 13;
             but_rnitialiser.Text = "Réinitialiser";
             but_rnitialiser.UseVisualStyleBackColor = false;
+            but_rnitialiser.Click += but_rnitialiser_Click_1;
             // 
             // label8
             // 
@@ -273,6 +274,36 @@
             dataGridpersonel.Size = new Size(664, 150);
             dataGridpersonel.TabIndex = 11;
             // 
+            // idpersonnel
+            // 
+            idpersonnel.HeaderText = "ID";
+            idpersonnel.Name = "idpersonnel";
+            // 
+            // nom
+            // 
+            nom.HeaderText = "Nom";
+            nom.Name = "nom";
+            // 
+            // prenom
+            // 
+            prenom.HeaderText = "Prenom";
+            prenom.Name = "prenom";
+            // 
+            // tel
+            // 
+            tel.HeaderText = "Tel";
+            tel.Name = "tel";
+            // 
+            // email
+            // 
+            email.HeaderText = "Email";
+            email.Name = "email";
+            // 
+            // service
+            // 
+            service.HeaderText = "Service";
+            service.Name = "service";
+            // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.BackColor = Color.Salmon;
@@ -318,36 +349,6 @@
             btncharger.TabIndex = 14;
             btncharger.Text = "charger";
             btncharger.UseVisualStyleBackColor = false;
-            // 
-            // idpersonnel
-            // 
-            idpersonnel.HeaderText = "ID";
-            idpersonnel.Name = "idpersonnel";
-            // 
-            // nom
-            // 
-            nom.HeaderText = "Nom";
-            nom.Name = "nom";
-            // 
-            // prenom
-            // 
-            prenom.HeaderText = "Prenom";
-            prenom.Name = "prenom";
-            // 
-            // tel
-            // 
-            tel.HeaderText = "Tel";
-            tel.Name = "tel";
-            // 
-            // email
-            // 
-            email.HeaderText = "Email";
-            email.Name = "email";
-            // 
-            // service
-            // 
-            service.HeaderText = "Service";
-            service.Name = "service";
             // 
             // gestion_personnel
             // 
